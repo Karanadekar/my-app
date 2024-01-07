@@ -13,6 +13,11 @@ const allRoutes = () => {
             path: '/',
             exact: true,
             element: !token ? <Login /> : <Navigate to={'/home'} />
+        },
+        {
+            path: '/login',
+            exact: true,
+            element: <Login />
         }
     ]
 
