@@ -31,8 +31,8 @@ export default function Login() {
     return (
         <React.Fragment key={'Login Page'}>
             <Grid container justifyContent={'center'} alignItems="center" style={{ height: '100vh' }}>
-                <Grid item xs={12} sm={8} md={6} lg={5}>
-                    <Card style={{ borderRadius: '1rem' }}>
+                <Grid item xs={8} sm={6} md={6} lg={3}>
+                    <Card style={{ borderRadius: '1rem', height: '70vh' }}>
                         <CardContent>
                             <form onSubmit={handleSubmit}>
                                 <Grid container direction="column" alignItems="center" spacing={4}>
@@ -44,7 +44,7 @@ export default function Login() {
                                     </Grid>
                                     <Grid item>
                                         <Typography variant="body1" className="text-white-50 mb-5">
-                                            Missing keys! Unlock the door with your Username and Password, please.
+                                            Unlock the door with your Username and Password, please.
                                         </Typography>
                                     </Grid>
                                     <Grid item>
